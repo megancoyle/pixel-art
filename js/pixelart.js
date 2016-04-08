@@ -26,9 +26,9 @@ $(".square").on("mouseover", function (event){
 
 // JavaScript for Taking Screenshot of the Page
     $("#btnSave").click(function() {
-      html2canvas(document.$art, {
+      html2canvas(document.body, {
       onrendered: function(canvas) {
       document.body.appendChild(canvas);
     }
-  });
+});
 });

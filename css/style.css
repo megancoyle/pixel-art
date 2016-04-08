@@ -1,10 +1,18 @@
-@import url(http://fonts.googleapis.com/css?family=Monoton);
+@import url(https://fonts.googleapis.com/css?family=Monofett);
 
 .brush {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   background: #1B4370;
-  margin: 15px auto;
+  display: inline-block;
+  margin-right: 10px;
+  float: left;
+}
+
+form {
+  display: inline-block;
+  float: right;
+  margin-top: 15px;
 }
 
 .square {
@@ -16,20 +24,31 @@
 }
 
 h1 {
-  font-family: Monoton;
-  font-size: 48px;
+  font-family: Monofett;
+  font-size: 55px;
   text-align: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .controls {
   text-align: center;
+  max-width: 270px;
+  margin: auto;
+  clear: both;
+  display: block;
+  padding-bottom: 40px;
 }
 
 #art {
   display: block;
   clear: both;
+  margin-top: 40px;
 }
 
-body {
-
+input#btnSave {
+    display: block;
+    float: none;
+    clear: both;
+    margin: auto;
 }
