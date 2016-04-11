@@ -43,7 +43,18 @@ h1 {
 #art {
   display: block;
   clear: both;
+  margin: auto;
   margin-top: 40px;
+  margin-bottom: 20px;
+  max-width: 1000px;
+  min-height: 500px;
+}
+
+#image-output {
+  margin: auto;
+  margin-top: 20px;
+  max-width: 1000px;
+  min-height: 500px;
 }
 
 input#btnSave {
