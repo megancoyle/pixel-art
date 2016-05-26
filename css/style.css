@@ -5,13 +5,13 @@
   height: 50px;
   background: #1B4370;
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 20px;
   float: left;
 }
 
 form {
   display: inline-block;
-  float: right;
+  float: left;
   margin-top: 15px;
 }
 
@@ -33,7 +33,7 @@ h1 {
 
 .controls {
   text-align: center;
-  max-width: 300px;
+  max-width: 320px;
   margin: auto;
   clear: both;
   display: block;
